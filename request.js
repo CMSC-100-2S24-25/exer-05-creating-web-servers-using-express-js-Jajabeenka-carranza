@@ -32,3 +32,19 @@ needle.post(
         console.log(res.body);
     }
 )
+
+needle.post(
+    'http://localhost:3000/add-book',
+    book2,
+    (err, res) => {
+        console.log(res.body);
+    }
+)
+
+needle.post(
+    'http://localhost:3000/add-book',
+    book3,
+    (err, res) => {
+        console.log(res.body);
+    }
+)
